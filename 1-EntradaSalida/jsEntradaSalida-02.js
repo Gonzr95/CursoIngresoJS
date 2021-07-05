@@ -4,9 +4,12 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	let nombre;
+	let apellido;
 
 	nombre=prompt("Ingrese su nombre");
-	
-	alert(nombre);
+	apellido=prompt("Ingrese su apellido")
+
+	alert("Sr "+ nombre+ " su apellido es "+ apellido);
+
 } 
 
