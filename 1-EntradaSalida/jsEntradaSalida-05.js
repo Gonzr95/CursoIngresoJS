@@ -9,11 +9,8 @@ function mostrar()
 	var edad;
 	var mensaje;
 
-
 	nombre=document.getElementById('txtIdNombre').value
 	edad=document.getElementById('txtIdEdad').value
-
-
 
 	mensaje="Usted se llama ";
 	mensaje=mensaje+nombre;
