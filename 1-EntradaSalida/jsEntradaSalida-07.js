@@ -1,4 +1,6 @@
 /*
+Autor: Gonzalo Rodriguez
+Ejercicio: 07
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt),realizar la operación correcta y 
 mostrar el resulto por medio de "ALERT"
@@ -23,7 +25,7 @@ function sumar()
 	suma=primerNumero+segundoNumero;
 
 	//mensaje
-	mensaje=suma;
+	mensaje="El resultado de la operacion es: "+suma;
 	alert(mensaje);
 
 }
@@ -47,7 +49,7 @@ function restar()
 	resta=primerNumero-segundoNumero;
 
 	//mensajes
-	mensaje=resta;
+	mensaje="El resultado de la operacion es: "+resta;
 	alert(mensaje);
 	
 }
@@ -71,7 +73,7 @@ function multiplicar()
 	multiplicacion=primerNumero*segundoNumero;
 
 	//mensajes
-	mensaje=multiplicacion;
+	mensaje="El resultado de la operacion es: "+multiplicacion;
 	alert(mensaje);
 	
 }
@@ -95,7 +97,7 @@ function dividir()
 	division=primerNumero/segundoNumero;
 
 	//mensajes
-	mensaje=division;
+	mensaje="El resultado de la operacion es: "+division;
 	alert(mensaje);
 
 }

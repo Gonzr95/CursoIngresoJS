@@ -1,4 +1,6 @@
 /*
+Autor: Gonzalo Rodriguez
+Ejercicio 06
 Debemos lograr tomar Los numeros por ID ,
 transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
@@ -23,14 +25,9 @@ function sumar()
 	
 	suma=primerNumero+segundoNumero;
 	
-	mensaje="la suma es :"+ suma;
+	mensaje="El resultado de la suma es: "+ suma;
 
-	alert(suma);
-
-
-	
-
-
+	alert(mensaje);
 
 }
 
