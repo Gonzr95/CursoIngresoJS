@@ -1,8 +1,23 @@
+/*
+Autor: Gonzalo Rodriguez
+Ejercicio IF 08
+*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
-	
+	var edadIngresada;
+	var estadoCivilIngresado;
+	var mensaje;
 
+	edadIngresada=document.getElementById('txtIdEdad').value;
+	edadIngresada=parseInt(edadIngresada);
 
-}//FIN DE LA FUNCIÓN
+	estadoCivilIngresado=document.getElementById('estadoCivil').value;
+
+	if(edadIngresada>17 && estadoCivilIngresado == "Soltero")
+	{
+		mensaje=("Usted no es menor y es soltero");
+	}
+
+alert(mensaje);
+
+}

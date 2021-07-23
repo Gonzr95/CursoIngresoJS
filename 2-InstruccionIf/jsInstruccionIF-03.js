@@ -1,6 +1,22 @@
+/*
+Autor: Gonzalo Rodriguez
+Ejercicio: IF 03*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	var mensaje;
 
+	//toma y conversion de datos
+	edad=document.getElementById('txtIdEdad').value;
+	edad=parseInt(edad);
+
+	if(edad>17)
+	{
+		mensaje=("Usted es mayor");
+	}
+	else
+	{
+		mensaje=("Usted es menor");
+	}
+alert(mensaje);
 }//FIN DE LA FUNCIÓN
